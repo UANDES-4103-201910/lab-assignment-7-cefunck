@@ -1,3 +1,42 @@
 /* Define your CSS styles here */
-/* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: auto;
+  width: auto;
+}
 
+.flex-container > div, span {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 10px;
+  color: white;
+  background-color: gray;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 1%;
+}
+
+#space {
+  margin: 2px;
+  padding: 1%;
+  width:10%;
+  height:10%;
+}
+
+span:active {
+background-color: Blue;
+}
+
+.control-key {
+  background-color: orange;
+}
+
+.character-key {
+  height: auto;
+  width: auto;
+}
+/* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
